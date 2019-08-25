@@ -327,8 +327,8 @@ hr{background-color:#fff}
 @media(max-width:600px)
 {
   .container{width:100%;margin:auto;max-width: 100%;}
-  .section_child_2{width: 100%;
-    margin: 19% 10% 0 23%;}
+  .section_child_2{    width: 50%;
+    margin: 16% 10% 0 23%;}
     .section_child_1{width:100%;}
     .section-ch{ width: 20%;
       margin: 2% 2% 2% 35%;}
@@ -343,4 +343,8 @@ hr{background-color:#fff}
   .loremm {
     font-size: 1.5vw;
 }
+.posts_child_1{     float: none;
+  width: 100%;}
+.posts_child_2{    float: none;
+  width: 100%;}
 }
