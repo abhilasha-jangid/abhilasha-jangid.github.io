@@ -1,84 +1,98 @@
-body{font-family: 'sans-serif'}
+body{font-family:georgia,garamond,serif;}
 .clearfix::after{content:"";display:table;clear:both}
-.blog{font-family:georgia,garamond,serif;float:left;font-size:40px;font-style:italic;margin-top:26px;margin-right:125px;display:inline-block;font-size:40px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
+.blog{float:left;font-size:40px;font-style:italic;margin-right:125px;font-size:40px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Celebrity{width:70px;height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Fashion-Beauty{width:137px;height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Health-Food{width:113px;height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Travel-Living{width:120px;height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
-.Wellness1{height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 ul{list-style:none}
 *{margin:0;padding:0}
-.container{max-width:100%;width:1200px;margin:auto}
-.menu-item-collection{text-align:center}
+.container{max-width:100%;width:1200px;margin:auto;}
+.search{float: right;}
+
+.menu-item-collection{text-align:center;vertical-align: middle;}
 .menu-item-link{display:inline-block;height:40px;line-height:40px;margin-right:40px;margin-top:42px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .container1{float:left;position:relative;width:30%}
 .container_heading{clear:both;text-align:center;padding-top:127px;height:31px;font-size:24px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;text-align:center;color:#232323}
-.section_parent{margin-top:86px}
-.section_parent::after{display:table;clear:both;content:""}
-.section_child_1{float:left;position: relative;}
-.section_child_2{float:left;margin-left:56px}
-.section_child_12{float:left;margin-left:30px;position: relative;}
-.section_text{height:18px;font-size:14px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;color:#232323;text-align:center; width: 152px;
-  height: 47px;
+.section_parent{margin-top:7%;width:100%;}
+.section_child_1{float:left;position: relative; width:70%}
+.section-ch{float:left;position: relative;width:14%;}
+.section_child_2{float:left;margin-left:56px;width:24%;}
+.section_child_12{margin-left:30px;}
+.section_text{font-size:14px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;color:#232323;text-align:center;
+  width: 86%;
+  height: 30%;
   border-radius: 4px;
   box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
   position: absolute;
-  bottom: -26px;
-  left: 10px;}
+  bottom: -16%;
+  left: 8%;}
 .Subscribe{width:124px;height:33px;font-size:26px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;color:#232323}
 .You-can-enter-your-e{margin:21px 0 20px 0;width:304px;height:36px;font-size:14px;font-weight:400;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;color:#232323}
-.Enter-you-Email-ID{height:17px;font-size:13px;font-weight:400;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:1px;color:#232323;float:left}
-.Rectangle{width:304px;height:40px;opacity:.05;border-radius:8px;background-color:#000;clear:both;padding-top:20px}
-.ic-arrow{float:right}
-.Trending-Now{width:170px;height:31px;font-size:24px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;color:#232323;padding-top:70px}
-.Latest-Posts{width:144px;height:31px;font-size:24px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;color:#232323;padding-top:70px}
-.posts_parent{clear:both}
-.posts_child_1{float:left}
-.posts_child_2{float:right}
+.Trending-Now{ margin:0 0 5% 0;font-size: 24px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;color:#232323;}
+.posts_parent{margin: 9% 0 0 0;}
+.posts_child_1{float:left;width:70%;}
+.posts_child_2{float:right;width: 30%;}
 .Bitmap{float:left;position: absolute; 
-  width: 544px;
-  height: 217px;
+  width: 185%;
+  height: 76%;
   border-radius: 12px;
   box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
   background-color: #ffffff;top: 10px;
-  left: 248px;}
+  left: 248px;padding: 5%;}
+  .bitmap{float:left;position: absolute;    top: 4%;
+    left: 29%;}
+.well{    width: 23%;
+  font-size: .8vw;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: .5px;
+  border-radius: 5px;
+  padding: 1% 1% 1% 1%;
+  background-color: #282629;
+  color: white;
+  margin: 0 0 4% 0;
+  text-align: center;}
+.best-art{margin:0 0 0 10%;}
   .Bitmap1{float:left;position: absolute; 
-    width: 338px;
-    height: 217px;
+    width: 53%;
+    height: 81%;
     border-radius: 12px;
     box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
-    background-color: #ffffff;top: 10px;
-    left: 248px;}
+    background-color: #ffffff;  top: 4%;
+    left: 43%;
+    padding: 2%;}
 .Bitmap_1{width:288px;height:237px;float:left;padding-top:50px}
-.bitmap_24{float:left;position: relative;}
+.bitmap_24{position: relative;}
 .bitmap_24_1{float:left;padding-top:10px}
-.Wellness{width:55px;font-size:12px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;
-  border-radius: 5px;
-  background-color: #282629;color: white;    margin: 0 0 19px 0;}
+.Wellness{width: 5vw;
+  font-size: 16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;
+  border-radius: 5px;padding: 1% 1% 1% 1%;
+  background-color: #282629;color: white;margin: 0 0 4% 0;}
 .Wellness2{width:55px;height:15px;font-size:12px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;padding-bottom:19px;padding-top:20px}
-.The-Anti-Office-Work{height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
+.The-Anti-Office-Work{height: 2vw;
+  font-size: 16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Lorem-ipsum-dolor-si{font-size:13px;font-weight:400;font-style:normal;font-stretch:normal;line-height:1.54;letter-spacing:.5px;color:#232323;padding-top:10px}
-.Read-More1{height:20px;font-size:12px;font-weight:700;font-style:normal;font-stretch:normal;line-height:1.67;letter-spacing:.5px;color:#282629;float:left}
-.Read-More2{width:67px;height:20px;font-size:12px;font-weight:700;font-style:normal;font-stretch:normal;line-height:1.67;letter-spacing:.5px;color:#282629;float:left}
-.Read-More{    position: absolute;
-  top: 92px;
-  left: 20px;width:67px;height:20px;font-size:12px;font-weight:700;font-style:normal;font-stretch:normal;line-height:1.67;letter-spacing:.5px;color:#282629;float:left}
+.Read-More{font-size: 12px;font-weight:700;font-style:normal;font-stretch:normal;line-height:1.67;letter-spacing:.5px;color:#282629;float:left}
 .Read-More_parent{padding-top:5px}
 .Read-More_parent_1{clear:both;padding-top:70px}
+.read-more{padding: 2% 0 0 0;}
 .Path{height:7.7px;float:left}
 .-ways-to-ensure-che{width:226px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .-tips-to-make-trave{width:447px;height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Managing-Life-with-R{width:240px;height:40px;font-size:14px;font-weight:700;font-style:normal;font-stretch:normal;line-height:1.43;letter-spacing:.5px;color:#232323}
 .Bitmap_19{width:100px;height:100px;object-fit:contain}
-.Latest-Posts_parent{display:table;table-layout:fixed;padding-top: 29px;padding-bottom: 29px;}
-.Latest-Posts_parent-1{display:table;table-layout:fixed;padding-top: 40px;padding-bottom: 29px;}
-.Latest-Posts_child{display:table-cell;vertical-align:middle}
+.Latest-Posts_parent{display:table;table-layout:fixed;padding: 7% 0 8% 0;width:100%}
+.Latest-Posts_child{display:table-cell;vertical-align:middle;width:60%;}
+.Latest-Posts-img{width:40%}
 hr{background-color:#fff}
 .Best-articles-from-o{height:37px;font-size:28px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.58px;text-align:center;color:#232323}
-.Best-articles-from-o_1{height:37px;font-size:28px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.58px;text-align:center;color:#232323;padding-top:70px;padding-bottom:40px}
+.Best-articles{height:37px;font-size:28px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.58px;text-align:center;color:#232323;margin: 7% 0 4% 0;}
 .best_article{width:100%;padding-top:45px}
-.best_article_child{float:left;width:50%;position: relative; border-radius: 12px;
+.best_article_child{float:left;width:45%;position: relative; border-radius: 12px;
     box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
     background-color: #ffffff;}
 .best_article_child_1{float:left;width:50%;padding-left:20px;position: relative;}
@@ -87,12 +101,12 @@ hr{background-color:#fff}
   background-color: #ffffff;}
 .bitmap_24_size{height:284px;width:288px}
 .best_article_1{clear:both;width:100%}
-.dont_miss{width:100%}
-.dont_miss_1{width:272px;height:240px}
+.dont_miss{width:96%;}
+.dont_miss_1{width:96%;}
 .dont_miss_parent{width:272px}
 .High-Intensity-Worko{width:242px;height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Lorem-ipsum-dolor-si_1{width:242px;font-size:12px;font-weight:400;font-style:normal;font-stretch:normal;line-height:1.67;letter-spacing:.5px;color:#232323}
-.dont-miss{float: left;padding-right: 28px;}
+.dont-miss{float: left;margin: 0 2% 0 0;position: relative; width:22%;}
 .footer-child{float:left;width: 108px;
   height: 180px;
   font-size: 16px;
@@ -119,7 +133,7 @@ hr{background-color:#fff}
   .footer-child-right{float: right;padding-right: 20px}
   .footer-parent
   {
-    padding-top: 85px;
+    padding-top: 20%;
     background-color: black;
   }
   .retangle{
@@ -129,21 +143,26 @@ hr{background-color:#fff}
   }
   .dont-miss-content{
     background-color: white;
-    border-radius: 12px;
+    border-radius: 0 0 12px 12px;
     box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
+    position: absolute;
+    bottom: -63%;
+    width: 96%;
+    padding: 2%;
   }
   .dont-miss-parent{
-    margin: 0 0 45px 0;
+    width: 100%
   }
   .best-article-parent{
     width:100%;
     margin: 40px 0 0 0;
   }
   .best-article-child{
-    width:50%;
+    width:45%;
     float:left;
-    margin:0 0 40px 0;
+    margin: 0 0 2% 0;
+    position: relative;
   }
   .header-parent{
     margin-top: 26px;
@@ -155,14 +174,14 @@ hr{background-color:#fff}
   .section-child{    position: absolute;
     top: 50%;
     left: 90%;
-    width: 70px;
-    height: 70px;
+    width: 8.4%;
+    height: 21.8%;
     box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
-    border-radius: 40px;
+    border-radius: 47%;
     }
     .Substitutes{
-      width: 456px;
+      width: 64%;
       font-size: 26px;
       font-weight: bold;
       font-style: normal;
@@ -184,34 +203,30 @@ hr{background-color:#fff}
     }
     .lorem
     {
-        width: 682px;
-        height: 147px;
-        border-radius: 15px;
-        box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
-        background-color: #ffffff;
-        position: absolute;
-        left: 3%;
-        top: 85%;
+      border-radius: 15px;
+      box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.04);
+      background-color: #ffffff;
+      padding: 3% 3% 3% 3%;
     }
+    .lorm-size{ width: 77%;
+      height: 26%;}
+      .lorem-si{width: 60%;height: 69%;}
+    .lorem-inner{position: absolute;
+      left: 3%;
+      top: 85%;}
     .loremm{
-      width: 642px;
-  height: 60px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.43;
   letter-spacing: 0.5px;
   color: #232323;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
     }
     .section-c{
-      position: absolute;
-      left: 31px;
-      top: 25px;
+      padding: 37% 0 0 43%;
+      width: 20%;
+      height: 32%;
     }
     .section-a{
       top: 15px;
@@ -219,10 +234,113 @@ hr{background-color:#fff}
       left: 17px;
     }
     .sec-tx{
-      position:absolute;
-      left: 42px;
-      top: 15px;
+      padding: 10% 0 0 0;
     }
-    .bit-map-child{    position: absolute;
-      top: 17px;
-      left: 14px;}
+      .search-box{
+        height: 40px;
+        border-radius: 40px;
+        background-color:rgba(0, 0, 0, 0.18);padding: 5px;    display: flex;
+        justify-content: space-between;
+        align-items: center;   width: 246px;}
+      .search-txt{
+        float: left;
+        border: none;
+        background:none;
+        outline: none;
+        padding: 0;
+        transition: 0.4s;
+      }
+.search-bar{float:right;}
+.img-wrap{width:100%}
+.img-trends{width:34%}
+.lat-img-wrap{width:66%;}
+.best-img-wrap{width:50%;
+}
+@media(max-width:1203px)
+{
+  .container{width:100%;margin:auto;max-width: 100%;}
+  .img-wrap{width:100%}
+  .section-child{width: 8.5%}
+  .Substitutes{width:64%;font-size: 2vw;}
+  /*.section_child_2{margin: 13% 0 0 0;}*/
+  .section_parent{width:100%}
+  .section_child_1{width:69%;}
+  .section_child_2{width:23%}
+  .loremm{font-size:1vw;}
+  .Bitmap{width: 185%;}
+  .Wellness{ 
+    font-size: 1vw;}
+  .The-Anti-Office-Work{font-size: 1.5vw;}
+  .Read-More{font-size: 1vw;}
+  .Trending-Now{font-size: 2.6vw;}
+  .section_text{font-size:1.2vw;}
+  .Best-articles{font-size: 2vw;}
+}
+      
+@media(max-width:990px)
+{
+  .container{width:100%;margin:auto;max-width: 100%;}
+  .img-wrap{width:100%}
+  .section-child{width: 8.5%}
+  .Substitutes{width:45%;font-size: 2vw;}
+  .section_child_2{margin: 14% 0 0 27%;
+    width: 50%;}
+  .section_child_1{width:100%;}
+  .section_parent{width:100%}
+  .loremm{font-size:1vw;}
+  .section-ch{   width: 20%;
+    margin: 2% 2% 2% 9%;}
+    .Wellness{ 
+      font-size: 1.5vw;}
+  .The-Anti-Office-Work{font-size: 1.5vw;}
+  .Read-More{font-size: 1vw;}
+  .Trending-Now{font-size: 2.2vw;}
+  .section_text{font-size:1.2vw;}
+  .Best-articles{font-size: 2vw;}
+}
+@media(max-width:810px)
+{
+  .container{width:100%;margin:auto;max-width: 100%;}
+  .section-ch{width: 17%;
+    margin: 2% 2% 2% 19%}
+  .Wellness{        width: 24%;
+    font-size: 1.5vw;}
+  .posts_child_1{     float: none;
+    width: 100%;}
+  .posts_child_2{    float: none;
+    width: 100%;}
+    .The-Anti-Office-Work {
+      height: 10%;
+      font-size: 2vw;
+  }
+    .loremm {
+      font-size: 1.5vw;
+  }
+  .Best-articles{font-size: 2vw;}
+  .Trending-Now{font-size: 3vw;}
+  .Read-More{font-size: 1vw;}
+  .section_text{font-size:1.2vw;}
+  .best-article-child{    float: none;
+    width: 60%;
+    margin: 0 0 5% 20%;}
+}
+@media(max-width:600px)
+{
+  .container{width:100%;margin:auto;max-width: 100%;}
+  .section_child_2{width: 100%;
+    margin: 19% 10% 0 23%;}
+    .section_child_1{width:100%;}
+    .section-ch{ width: 20%;
+      margin: 2% 2% 2% 35%;}
+  .Read-More{font-size: 1vw;}
+  .Trending-Now{font-size: 3.5vw;}
+  .section_text{font-size:1.2vw;}
+  .Best-articles{font-size: 2vw;}
+  .The-Anti-Office-Work {
+    height: 10%;
+    font-size: 2vw;
+}
+  .loremm {
+    font-size: 1.5vw;
+}
+}
