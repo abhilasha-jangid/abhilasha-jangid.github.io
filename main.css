@@ -1,5 +1,4 @@
-body{font-family:georgia,garamond,serif; }
-.contain{overflow: hidden;}
+body{font-family:georgia,garamond,serif; height: body;}
 .clearfix::after{content:"";display:table;clear:both}
 .blog{float:left;font-size:40px;font-style:italic;margin-right:125px;font-size:40px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
 .Celebrity{width:70px;height:20px;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;color:#05183b}
@@ -134,8 +133,9 @@ hr{background-color:#fff}
   .footer-child-right{float: right;padding-right: 20px}
   .footer-parent
   {
-    padding-top: 20%;
     background-color: black;
+    height: 335px;
+    padding: 15% 0 0 0;
   }
   .retangle{
       width: 1280px;
@@ -325,6 +325,16 @@ hr{background-color:#fff}
   .best-article-child{    float: none;
     width: 60%;
     margin: 0 0 5% 20%;}
+    .dont-miss-content {
+      bottom: -125%;
+  }
+  .footer-parent {
+      padding-top: 28%; height: 293px;}
+      .footer-child{       margin: 14% 0 0 10%;
+        font-size: .8vw;     width: 40px;}
+.footer-child-next{       margin: 13% 0 0 37%;
+  font-size: 1.8vw;}
+.footer-child-right{  margin: 8% 3% 0 0;}
 }
 @media(max-width:600px)
 {
@@ -349,5 +359,9 @@ hr{background-color:#fff}
   width: 100%;}
 .posts_child_2{    float: none;
   width: 100%;}
-div{overflow-y: hidden;}
+  .dont-miss-content{bottom: -132%;}
+.footer-child{    margin: 0 0 0 10%;    font-size: 1.3vw;     width: 40px;}
+.footer-child-next{    margin: 0 0 0 37%;     font-size: 2.5vw;}
+.footer-child-right{    margin: 0 3% 0 0;}
+.footer-parent{     padding-top: 28%;     height: 159px;}
 }
