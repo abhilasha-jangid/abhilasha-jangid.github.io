@@ -1,369 +1,429 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Brown sugar</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-   <!-- Loading main css file -->
-   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Loading main css file -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
-    
+    <script>
+        function responsive_menu()
+        {
+            console.log("here");
+            var e = document.getElementById("menu-bar");
+            if(e.className === "nav-bar")
+            {
+                e.className += "responsive";
+            }
+            else{
+                e.className = "nav-bar";
+            }
+        }
+    </script>
 </head>
+
 <body>
-        <div class="container">
-            <div class="header-parent clearfix contain">
-                <div class="blog">Blog</div>
-                <i class="fa fa-search search" aria-hidden="true"></i>
-                <nav>
-                    <div>
-                        <ul class="menu-item-collection">
-                            <li class="menu-item-link">Celebrity</li>
-                            <li class="menu-item-link">Fashion & Beauty</li>
-                            <li class="menu-item-link">Health & Food</li>
-                            <li class="menu-item-link">Travel & Living</li>
-                            <li class="menu-item-link">Wellness</li>
-                            <li class="menu-item-link">Shopping</li>
-                        </ul>
-                    </div>
-                </nav>
+    <div class="container">
+        <div class="header-parent clearfix contain">
+            <div  onclick="responsive_menu()" class="blog">Blog</div>
+            <nav id = "menu-bar" class="nav-bar">
+                <div class="header-nav">
+                    <ul class="menu-item-collection">
+                        <li class="menu-item-link">Celebrity</li>
+                        <li class="menu-item-link">Fashion & Beauty</li>
+                        <li class="menu-item-link">Health & Food</li>
+                        <li class="menu-item-link">Travel & Living</li>
+                        <li class="menu-item-link">Wellness</li>
+                        <li class="menu-item-link">Shopping</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="search fa fa-search">
             </div>
-            <div class="section_parent contain" >
-                <div  class="section_child_1 contain"> 
-                    <img class="img-wrap contain" src="image/bitmap.jpg" alt="Professional Speaker">
-                    <div class="section-child contain">
-                        <img class = "section-c contain"src="image/arrow-next.png" alt="">
-                    </div>
-                    <div class="Substitutes">
-                        <p class="section-a"> 7 Clever Substitutes for Brown Sugar</p>
-                    </div>
-                    <div class="lorem lorm-size lorem-inner contain">
-                            <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <p class="Read-More read-more">Read More</p>
-                    </div>
-                </div>
-                <div class="section_child_2 contain">
-                    <div class="Subscribe-img">
-                        <img class="img-wrap" src="image/group-24.png" alt="Professional Speaker">
-                    </div>
-                    <div class="Subscribe img-wrap">
-                        <p>Subscribe</p>
-                    </div>
-                    <div class="You-can-enter-your-e img-wrap">
-                        <p>You can enter your email below to keep up with the latest posts</p>
-                    </div>
-                    <div class="search-box clearfix img-wrap" >
-                        <input class="search-txt" type="email" placeholder="Enter you Email ID">
-                        <img class="search-bar" src="image/ic-arrow.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="container_heading contain">
-                <p>Browse articles by category</p>
-            </div>
-            <div class="section_parent clearfix" >
-                <div  class="section-ch contain">
-                        <img class="img-wrap" src="image/bitmap_2.jpg" alt="">
-                        <div class="section_text">
-                                <p class="sec-tx">Celebrity</p>
-                            </div>
-                </div>
-                <div  class="section-ch contain section_child_12">
-                        <img class="img-wrap" src="image/bitmap_3.jpg" alt="">
-                        <div class="section_text">
-                             <p class="sec-tx">Fashion & Beauty</p>
-                        </div>
-                </div>
-                <div  class="section-ch contain section_child_12">
-                        <img class="img-wrap" src="image/bitmap_4.jpg" alt="">
-                        <div class="section_text">
-                                <p class="sec-tx">Health & Food</p>
-                            </div>
-                </div>
-                <div  class="section-ch contain section_child_12">
-                        <img class="img-wrap" src="image/bitmap_5.jpg" alt="">
-                        <div class="section_text">
-                                <p class="sec-tx">Travel & Living</p>
-                            </div>
-                   
-                </div>
-                <div  class="section-ch contain section_child_12">
-                        <img class="img-wrap" src="image/bitmap_6.jpg" alt="">
-                        <div class="section_text">
-                                <p class="sec-tx">Wellness</p>
-                            </div>
-                </div>
-                <div  class="section-ch contain section_child_12">
-                        <img class="img-wrap" src="image/bitmap_7.jpg" alt="">
-                        <div class="section_text">
-                            <p class="sec-tx">Shopping</p>
-                        </div>
-                </div>
-            </div>
-            <div class="posts_parent clearfix">
-                <div class="posts_child_1 clearfix">
-                    <div class="Trending-Now">Trending Now</div>
-                    <div class="post-child bitmap_24 clearfix">
-                            <img class="img-trends" src="image/bitmap_24.jpg" alt="">
-                            <div class="lorem lorem-si bitmap">
-                                    <p class="Wellness">Wellness</p>
-                                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                    <div class="Read-More_parent">
-                                        <p class="Read-More">Read More</p>
-                                        <div class="Path">
-                                        <img src="image/ic-arrow.svg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                    <div class = "post-child bitmap_24 clearfix">
-                                <img class="img-trends" src="image/bitmap_25.jpg" alt="">
-                                <div class="lorem lorem-si bitmap">
-                                        <p class="Wellness">Wellness</p>
-                                        <p class="The-Anti-Office-Work">5 ways to ensure cheap travel</p>
-                                        <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                        <div class="Read-More_parent">
-                                            <p class="Read-More">Read More</p>
-                                            <div class="Path">
-                                            <img src="image/ic-arrow.svg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                     </div>
-                     <div class = "post-child bitmap_24 clearfix" >
-                            <img class="img-trends" src="image/bitmap_26.jpg" alt="">
-                            <div class="lorem lorem-si bitmap">
-                                    <p class="Wellness">Wellness</p>
-                                    <p class="The-Anti-Office-Work">6 tips to make traveling with pets</p>
-                                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                    <div class="Read-More_parent">
-                                        <p class="Read-More">Read More</p>
-                                        <div class="Path">
-                                        <img src="image/ic-arrow.svg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>    
-                </div>
-                <div class="posts_child_2">
-                    <div class="Trending-Now">Latest Posts</div>
-                    <div  class="Latest-Posts_parent clearfix">
-                        <div  class="Latest-Posts_child">
-                            <p class="Wellness">Wellness</p>
-                            <p class="The-Anti-Office-Work">Managing Life with Rheumatoid Arthritis</p>
-                        </div>
-                            <img class="lat-img-wrap" src="image/bitmap_19.jpg" alt="">
-                    </div>
-                    <hr>
-                    <div  class="Latest-Posts_parent clearfix">
-                        <div class="Latest-Posts_child">
-                            <p class="Wellness">Travel & Living</p>
-                            <p class="The-Anti-Office-Work">5 popular spa getaways</p>
-                        </div>
-                        <img class="lat-img-wrap" src="image/bitmap_20.jpg" alt="">
-                    </div>
-                    <hr>
-                    <div class="Latest-Posts_parent clearfix">
-                        <div  class="Latest-Posts_child">
-                            <p class="Wellness">Wellness</p>
-                            <p class="The-Anti-Office-Work">Symptoms of Psoriasis</p>
-                        </div>
-                        <img class="lat-img-wrap" src="image/bitmap_21.jpg" alt="">
-                    </div>
-                    <hr>
-                    <div class="Latest-Posts_parent clearfix">
-                        <div class="Latest-Posts_child">
-                            <p class="Wellness">Shopping</p>
-                            <p class="The-Anti-Office-Work">5 Victoria’s Secret’s products that every woman should own</p>
-                        </div>
-                        <img class="lat-img-wrap" src="image/bitmap_22.jpg" alt="">
-                    </div>
-                    <hr>
-                    <div class="Latest-Posts_parent clearfix">
-                        <div class="Latest-Posts_child">
-                            <p class="Wellness">Wellness</p>
-                            <p class="The-Anti-Office-Work">Here Are Some Fast Facts About Opioid Addiction</p>
-                        </div>
-                        <img class="lat-img-wrap" src="image/bitmap_23.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix contain">
-                <p class="Best-articles-from-o">Best articles from our authors</p>
-            </div>
-            <div class="best-article-parent clearfix">
-                <div class="best-article-child clearfix">
-                        <img class="best-img-wrap" src="image/bitmap_24.jpg" alt="">
-                    
-                        <div class="Bitmap1">
-                                <p class="Wellness">Wellness</p>
-                                <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                                <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                <div class="Read-More_parent">
-                                    <p class="Read-More">Read More</p>
-                                    <div class="Path">
-                                        <img src="image/ic-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                        </div>
-                </div>
-                <div class="best-article-child clearfix">
-                        <img class="best-img-wrap best-art" src="image/bitmap_15.jpg" alt="">
-                        <div class="Bitmap1">
-                                <p class="Wellness">Beauty</p>
-                                <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                                <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                <div class="Read-More_parent">
-                                    <p class="Read-More">Read More</p>
-                                    <div class="Path">
-                                    <img src="image/ic-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                        </div>
-                </div>
-                <div class="best-article-child clearfix">
-                        <img class="best-img-wrap" src="image/bitmap_13.jpg" alt="">
-                        <div class="Bitmap1">
-                                <p class="Wellness">Wellness</p>
-                                <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                                <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                <div class="Read-More_parent">
-                                    <p class="Read-More">Read More</p>
-                                    <div class="Path">
-                                        <img src="image/ic-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                        </div>
-                </div>
-                <div class="best-article-child clearfix">
-                        <img class="best-img-wrap best-art" src="image/bitmap_17.jpg" alt="">
-                        <div class="Bitmap1">
-                                <p class="Wellness">Wellness</p>
-                                <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                                <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                <div class="Read-More_parent">
-                                    <p class="Read-More">Read More</p>
-                                    <div class="Path">
-                                    <img src="image/ic-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                        </div>
+        </div>
 
+        
+        <div class="section_parent clearfix">
+            <div class="section_child_1">
+                <img class="img-wrap" src="image/bitmap.jpg" alt="Professional Speaker">
+                <div class="section-child">
+                    <img class="section-c" src="image/arrow-next.png" alt="">
                 </div>
-                <div class="best-article-child clearfix">
-                        <img class="best-img-wrap" src="image/bitmap_12.jpg" alt="">
-                        <div class="Bitmap1">
-                                <p class="Wellness">Wellness</p>
-                                <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                                <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                <div class="Read-More_parent">
-                                    <p class="Read-More">Read More</p>
-                                    <div class="Path">
-                                        <img src="image/ic-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                        </div>
+                <div class="Substitutes">
+                    <p class="section-a"> 7 Clever Substitutes for Brown Sugar</p>
                 </div>
-                <div class="best-article-child clearfix">
-                        <img class="best-img-wrap best-art" src="image/bitmap_16.jpg" alt="">
-                        <div class="Bitmap1">
-                                <p class="Wellness">Wellness</p>
-                                <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                                <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                                <div class="Read-More_parent">
-                                    <p class="Read-More">Read More</p>
-                                    <div class="Path">
-                                    <img src="image/ic-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                        </div>
-
+                <div class="lorem lorm-size lorem-inner contain">
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="Read-More read-more">Read More</p>
                 </div>
             </div>
+            <div class="section_child_2 contain">
+                <div class="Subscribe-img">
+                    <img class="img-wrap" src="image/group-24.png" alt="Professional Speaker">
+                </div>
+                <div class="Subscribe img-wrap">
+                    <p>Subscribe</p>
+                </div>
+                <div class="You-can-enter-your-e img-wrap">
+                    <p>You can enter your email below to keep up with the latest posts</p>
+                </div>
+                <div class="search-box clearfix img-wrap">
+                    <div class="search-txt">
+                        <input class="sea-box" type="email" placeholder="Enter you Email ID">
+                        <div class="search-bar">
+                            <img src="image/ic-arrow.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_heading clearfix contain">
+            <p>Browse articles by category</p>
+        </div>
+        <div class="section_parent clearfix">
+            <div class="section-ch contain">
+                <img class="img-wrap" src="image/bitmap_2.jpg" alt="">
+                <div class="section_text">
+                    <p class="sec-tx">Celebrity</p>
+                </div>
+            </div>
+            <div class="section-ch contain">
+                <img class="img-wrap" src="image/bitmap_3.jpg" alt="">
+                <div class="section_text">
+                    <p class="sec-tx">Fashion & Beauty</p>
+                </div>
+            </div>
+            <div class="section-ch contain">
+                <img class="img-wrap " src="image/bitmap_4.jpg" alt="">
+                <div class="section_text">
+                    <p class="sec-tx">Health & Food</p>
+                </div>
+            </div>
+            <div class="section-ch contain">
+                <img class="img-wrap sec-c" src="image/bitmap_5.jpg" alt="">
+                <div class="section_text">
+                    <p class="sec-tx">Travel & Living</p>
+                </div>
+
+            </div>
+            <div class="section-ch contain">
+                <img class="img-wrap sec-c" src="image/bitmap_6.jpg" alt="">
+                <div class="section_text">
+                    <p class="sec-tx">Wellness</p>
+                </div>
+            </div>
+            <div class="section-ch contain">
+                <img class="img-wrap sec-c" src="image/bitmap_7.jpg" alt="">
+                <div class="section_text">
+                    <p class="sec-tx">Shopping</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts_parent clearfix">
+            <div class="posts_child_1 clearfix">
+                <div class="Trending-Now">Trending Now</div>
+                <div class="post-child bitmap_24 clearfix">
+                    <img class="img-trends" src="image/bitmap_24.jpg" alt="">
+                    <div class="lorem lorem-si bitmap">
+                        <p class="Wellness">Wellness</p>
+                        <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                        <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
+                        <div class="Read-More_parent">
+                            <p class="Read-More">Read More</p>
+                            <div class="Path">
+                                <img src="image/ic-arrow.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-child bitmap_24 clearfix">
+                    <img class="img-trends" src="image/bitmap_25.jpg" alt="">
+                    <div class="lorem lorem-si bitmap">
+                        <p class="Wellness">Wellness</p>
+                        <p class="The-Anti-Office-Work">5 ways to ensure cheap travel</p>
+                        <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
+                        <div class="Read-More_parent">
+                            <p class="Read-More">Read More</p>
+                            <div class="Path">
+                                <img src="image/ic-arrow.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-child bitmap_24 clearfix">
+                    <img class="img-trends" src="image/bitmap_26.jpg" alt="">
+                    <div class="lorem lorem-si bitmap">
+                        <p class="Wellness">Wellness</p>
+                        <p class="The-Anti-Office-Work">6 tips to make traveling with pets</p>
+                        <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
+                        <div class="Read-More_parent">
+                            <p class="Read-More">Read More</p>
+                            <div class="Path">
+                                <img src="image/ic-arrow.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="posts_child_2">
+                <div class="Trending-Now">Latest Posts</div>
+                <div class="Latest-Posts_parent clearfix">
+                    <div class="Latest-Posts_child">
+                        <p class="Wellness">Wellness</p>
+                        <p class="The-Anti-Office-Work">Managing Life with Rheumatoid Arthritis</p>
+                    </div>
+                    <img class="lat-img-wrap" src="image/bitmap_19.jpg" alt="">
+                </div>
+                <hr>
+                <div class="Latest-Posts_parent clearfix">
+                    <div class="Latest-Posts_child">
+                        <p class="Wellness">Travel & Living</p>
+                        <p class="The-Anti-Office-Work">5 popular spa getaways</p>
+                    </div>
+                    <img class="lat-img-wrap" src="image/bitmap_20.jpg" alt="">
+                </div>
+                <hr>
+                <div class="Latest-Posts_parent clearfix">
+                    <div class="Latest-Posts_child">
+                        <p class="Wellness">Wellness</p>
+                        <p class="The-Anti-Office-Work">Symptoms of Psoriasis</p>
+                    </div>
+                    <img class="lat-img-wrap" src="image/bitmap_21.jpg" alt="">
+                </div>
+                <hr>
+                <div class="Latest-Posts_parent clearfix">
+                    <div class="Latest-Posts_child">
+                        <p class="Wellness">Shopping</p>
+                        <p class="The-Anti-Office-Work">5 Victoria’s Secret’s products that every woman should own</p>
+                    </div>
+                    <img class="lat-img-wrap" src="image/bitmap_22.jpg" alt="">
+                </div>
+                <hr>
+                <div class="Latest-Posts_parent clearfix">
+                    <div class="Latest-Posts_child">
+                        <p class="Wellness">Wellness</p>
+                        <p class="The-Anti-Office-Work">Here Are Some Fast Facts About Opioid Addiction</p>
+                    </div>
+                    <img class="lat-img-wrap" src="image/bitmap_23.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="clearfix contain">
+            <p class="Best-articles-from-o">Best articles from our authors</p>
+        </div>
+        <div class="best-article-parent clearfix">
+            <div class="best-article-child clearfix">
+                <img class="best-img-wrap" src="image/bitmap_24.jpg" alt="">
+
+                <div class="Bitmap1">
+                    <p class="Wellness">Wellness</p>
+                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <div class="Read-More_parent">
+                        <p class="Read-More">Read More</p>
+                        <div class="Path">
+                            <img src="image/ic-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-article-child clearfix">
+                <img class="best-img-wrap" src="image/bitmap_15.jpg" alt="">
+                <div class="Bitmap1">
+                    <p class="Wellness">Beauty</p>
+                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <div class="Read-More_parent">
+                        <p class="Read-More">Read More</p>
+                        <div class="Path">
+                            <img src="image/ic-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-article-child clearfix">
+                <img class="best-img-wrap" src="image/bitmap_13.jpg" alt="">
+                <div class="Bitmap1">
+                    <p class="Wellness">Wellness</p>
+                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <div class="Read-More_parent">
+                        <p class="Read-More">Read More</p>
+                        <div class="Path">
+                            <img src="image/ic-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-article-child clearfix">
+                <img class="best-img-wrap" src="image/bitmap_17.jpg" alt="">
+                <div class="Bitmap1">
+                    <p class="Wellness">Wellness</p>
+                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <div class="Read-More_parent">
+                        <p class="Read-More">Read More</p>
+                        <div class="Path">
+                            <img src="image/ic-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="best-article-child clearfix">
+                <img class="best-img-wrap" src="image/bitmap_12.jpg" alt="">
+                <div class="Bitmap1">
+                    <p class="Wellness">Wellness</p>
+                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                    <p class="loremm txt-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <div class="Read-More_parent">
+                        <p class="Read-More">Read More</p>
+                        <div class="Path">
+                            <img src="image/ic-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-article-child clearfix">
+                <img class="best-img-wrap" src="image/bitmap_16.jpg" alt="">
+                <div class="Bitmap1">
+                    <p class="Wellness">Wellness</p>
+                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <div class="Read-More_parent">
+                        <p class="Read-More">Read More</p>
+                        <div class="Path">
+                            <img src="image/ic-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="clearfix contain">
             <p class="Best-articles">You dont want to miss</p>
         </div>
         <div class="dont-miss-parent clearfix">
             <section class="dont-miss">
-                <img class="dont_miss_1"src="image/bitmap_13.jpg" alt="">
+                <img class="dont_miss_1" src="image/bitmap_13.jpg" alt="">
                 <article class="dont-miss-content">
                     <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
                     <div class="Read-More_parent clearfix">
                         <p class="Read-More">Read More</p>
                         <div class="Path">
-                        <img class="img-wrap" src="image/ic-arrow.svg" alt="">
+                            <img class="img-wrap" src="image/ic-arrow.svg" alt="">
                         </div>
                     </div>
                 </article>
             </section>
             <div class="dont-miss">
-                <img class="dont_miss_1"src="image/bitmap_14.jpg" alt="">
+                <img class="dont_miss_1" src="image/bitmap_14.jpg" alt="">
                 <div class="dont-miss-content">
                     <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
                     <div class="Read-More_parent clearfix">
                         <p class="Read-More">Read More</p>
                         <div class="Path">
-                        <img class="img-wrap" src="image/ic-arrow.svg" alt="">
+                            <img class="img-wrap" src="image/ic-arrow.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="dont-miss">
-                <img class="dont_miss_1"src="image/bitmap_17.jpg" alt="">
+                <img class="dont_miss_1" src="image/bitmap_17.jpg" alt="">
                 <div class="dont-miss-content">
                     <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <p class="loremm txt-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
                     <div class="Read-More_parent clearfix">
                         <p class="Read-More">Read More</p>
                         <div class="Path">
-                        <img src="image/ic-arrow.svg" alt="">
+                            <img src="image/ic-arrow.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="dont-miss contain">
-            <img class="dont_miss_1"src="image/bitmap_18.jpg" alt="">
-            <div class="dont-miss-content">
-                <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
-                <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
-                <div class="Read-More_parent clearfix">
-                    <p class="Read-More">Read More</p>
-                    <div class="Path">
-                    <img class="img-wrap" src="image/ic-arrow.svg" alt="">
+                <img class="dont_miss_1" src="image/bitmap_18.jpg" alt="">
+                <div class="dont-miss-content">
+                    <p class="The-Anti-Office-Work">The Anti-Office Workout</p>
+                    <p class="loremm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex consequat.</p>
+                    <div class="Read-More_parent clearfix">
+                        <p class="Read-More">Read More</p>
+                        <div class="Path">
+                            <img class="img-wrap" src="image/ic-arrow.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div> 
+    </div>
+
     
-    </div>
-</div>
-<div class="footer-parent clearfix">
-        <div class="footer-child">
-            About us
-            Privacy Policy
-            Contact Us
+    <footer class="footer-parent clearfix">
+        <div class="footer-pare">
+            <div class="footer-child">
+                <ul class="footer-item-collection">
+                    <li class="footer-item-link"> About us</li>
+                    <li class="footer-item-link">Privacy Policy</li>
+                    <li class="footer-item-link">Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-child-next">
+                <ul>
+                    <li>© Copyright 2019 by Blog.com</li>
+                    <li>All Rights Reserved</li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-child-right">
+                    <img src="image/l-pinterest.png">
+                </div>
+                <div class="footer-child-right">
+                    <img src="image/l-twitter.png">
+                </div>
+                <div class="footer-child-right">
+                    <img src="image/l-instagram.png">
+                </div>
+                <div class="footer-child-right">
+                    <img src="image/l-facebook.png">
+                </div>
+            </div>
         </div>
-        <div class="footer-child-next">
-            © Copyright 2019 by Blog.com
-            All Rights Reserved
-        </div>
-        <div class="footer-child-right">
-            <img src="image/l-pinterest.png">
-        </div>
-        <div class="footer-child-right">
-                <img src="image/l-twitter.png">
-        </div>
-        <div class="footer-child-right">
-                <img src="image/l-instagram.png">
-        </div>
-        <div class="footer-child-right">
-                <img src="image/l-facebook.png">
-        </div>
-    </div>
+    </footer>
 </body>
+
 </html>
